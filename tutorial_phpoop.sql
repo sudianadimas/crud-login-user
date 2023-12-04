@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 26 Sep 2019 pada 13.41
--- Versi server: 10.1.30-MariaDB
--- Versi PHP: 7.2.2
+-- Waktu pembuatan: 27 Nov 2023 pada 06.46
+-- Versi server: 10.1.38-MariaDB
+-- Versi PHP: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -43,7 +43,10 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_login`, `username`, `password`, `nama_pengguna`, `telepon`, `email`, `alamat`) VALUES
-(2, 'faiz', '202cb962ac59075b964b07152d234b70', 'M Faiz', '081298669897', 'faiz@gmail.com', 'Bekasi');
+(8, 'dana', '202cb962ac59075b964b07152d234b70', 'dana', '081234455', 'sudiana811@gmail.com', 'Cidokom'),
+(9, 'dimas', '202cb962ac59075b964b07152d234b70', 'dimas andoko', '1233455', 'dananesa2019@gmail.com', 'Pamulang'),
+(11, 'nesa', '202cb962ac59075b964b07152d234b70', 'nesa lurumi', '23213242', 'sudiana811@gmail.com', 'Bekeasi'),
+(12, 'nesa', '202cb962ac59075b964b07152d234b70', 'Joko', '12133213', 'sudiana899@gmail.com', 'Jakarta');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +66,7 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT untuk tabel `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_login` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

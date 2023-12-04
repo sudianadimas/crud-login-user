@@ -48,8 +48,7 @@
                                         <th>Telepon</th>
                                         <th>Email</th>
                                         <th>Alamat</th>
-                                        <th>Username</th>
-                                        <th>Password</th>
+                                        
                                         <th style="text-align: center;">Aksi</th>
                                     </tr>
                                 </thead>
@@ -65,8 +64,8 @@
                                         <td><?php echo $isi['telepon'];?></td>
                                         <td><?php echo $isi['email'];?></td>
                                         <td><?php echo $isi['alamat'];?></td>
-                                        <td><?php echo $isi['username'];?></td>
-                                        <td>****</td>
+                                        
+                                        
                                         <td style="text-align: center;">
                                             <a href="edit.php?id=<?php echo $isi['id_login'];?>" class="btn btn-success btn-md">
                                             <span class="fa fa-edit"></span></a>
@@ -85,9 +84,9 @@
                     <?php }else{?>
                         <br/>
                         <div class="alert alert-info">
-                            <h3> Maaf Anda Belum Dapat Akses CRUD, Silahkan Login Terlebih Dahulu !</h3>
+                            <h3> Silahkan Login Terlebih Dahulu !</h3>
                             <hr/>
-                            <p><a href="login.php">Login Disini</a></p>
+                            <p><a href="login.php">Login Disini....</a></p>
                         </div>
                     <?php }?>
 			    </div>
